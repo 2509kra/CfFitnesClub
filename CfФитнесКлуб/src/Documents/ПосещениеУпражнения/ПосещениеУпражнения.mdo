@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24f43597-2a26-4272-9b84-851fa9a5dae8">
+  <producedTypes>
+    <objectType typeId="37c3b24b-e219-45b5-bff7-692171d23ceb" valueTypeId="248cc56e-b5e3-46c9-b50e-93587da4f5b9"/>
+    <refType typeId="30c30554-2579-407d-9181-3db7c85a4417" valueTypeId="96e4ca81-c06a-4cec-b8cb-b8c30a238f27"/>
+    <selectionType typeId="60c46ea9-211a-4b6f-8dc9-ab554bef932e" valueTypeId="e43e1964-8b7f-4e93-8f81-35a9c9143cbb"/>
+    <listType typeId="206ea4d3-3139-4f4e-8a03-2636916ec461" valueTypeId="dfd85925-da13-4999-9264-8b9ce825e15b"/>
+    <managerType typeId="d31ba142-9e10-431e-94c6-ec8e40a8a0ab" valueTypeId="5fe94d00-00e4-41e6-9a3b-454b61352ddc"/>
+  </producedTypes>
+  <name>ПосещениеУпражнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Посещение упражнения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПосещениеУпражнения.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Посещение упражнения</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Посещения упражнений</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.АктивныеПосещения</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="3e41227a-2643-4e52-8377-24eac187cc5a">
+    <name>Упражнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упражнение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Упражнения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b0d65980-dc10-4dc7-aca0-685fe2363b26">
+    <name>Билет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Билет</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПродажаБилета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

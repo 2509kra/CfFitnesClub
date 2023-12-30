@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2a8eb77-2124-465f-a187-fb4a5e5330a3">
+  <name>CfФитнесКлуб</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cf фитнес клуб</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="cac391bd-90da-44a6-8e62-9d5714eb0e09"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="46c06610-e46e-4e79-8964-b0cf06c16078"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="4818a55d-8455-4735-999d-2779c1fa4283"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="681a7358-c81d-4002-b3fd-baab2aa38357"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="9db0bbe1-950e-4104-a797-be13accd2684"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="253bca21-dda1-4c70-a480-42f3b5d5d4b0"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="e84ef547-01bc-488a-b737-eb7b3b335675"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Дмитрий</vendor>
+  <version>1.0.0.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value>Дмитрий</value>
+  </copyright>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.24</compatibilityMode>
+  <languages uuid="7654f741-e7e8-4096-9594-7ed79018e86f">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <roles>Role.Кассир</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.Тренер</roles>
+  <catalogs>Catalog.Упражнения</catalogs>
+  <documents>Document.ПосещениеУпражнения</documents>
+  <documents>Document.ПродажаБилета</documents>
+  <reports>Report.ПродажиПоУпражнениям</reports>
+  <reports>Report.СтатистикаПосещений</reports>
+  <accumulationRegisters>AccumulationRegister.АктивныеПосещения</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+</mdclass:Configuration>
