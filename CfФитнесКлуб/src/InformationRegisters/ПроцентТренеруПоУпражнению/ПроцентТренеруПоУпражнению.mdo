@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8027c9e7-5079-4b9a-a4f5-4fb785c54017">
+  <producedTypes>
+    <selectionType typeId="cb3e39e5-f8e6-4983-bcd2-cc8126e39b61" valueTypeId="56017da4-aee4-4e16-825a-1590838aa15e"/>
+    <listType typeId="30f42b6e-7962-46ff-b5c5-66a29d34c9ed" valueTypeId="fc6b344e-967b-4806-a336-8dc82a2b6152"/>
+    <managerType typeId="140666c6-46ba-4528-9081-657e9b3a26f2" valueTypeId="5faafc61-085a-46b6-83db-15c815613cb8"/>
+    <recordSetType typeId="669900c8-731d-4941-9281-e83c74cf5089" valueTypeId="64560b9c-3e66-434d-ad4d-7fc522da1df7"/>
+    <recordKeyType typeId="b1a6e263-80fd-448a-82ed-b015a6d191c6" valueTypeId="9d1c5fcc-cffc-4890-8ed8-3aab7e0a828b"/>
+    <recordType typeId="96192414-2a87-4874-b8f2-50027155499e" valueTypeId="0afb84fe-d360-4c23-b951-11e7a3db8445"/>
+    <recordManagerType typeId="ae331007-c820-4fe4-a550-8dc83d72caf8" valueTypeId="a8fb0417-db82-4ce1-bc71-a6b375341ec9"/>
+  </producedTypes>
+  <name>ПроцентТренеруПоУпражнению</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процент тренеру по упражнению</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="acdffea0-d808-4a4a-a472-4e06a801587b">
+    <name>ПроцентТренеру</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент тренеру</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f224961e-2a50-4ba6-8a20-6752a6fe2517">
+    <name>Упражнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упражнение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Упражнения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -7,8 +7,8 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>ВидУпражнения</dataPath>
-			<field>ВидУпражнения</field>
+			<dataPath>Упражнение</dataPath>
+			<field>Упражнение</field>
 			<role>
 				<dcscom:dimension>true</dcscom:dimension>
 			</role>
@@ -19,10 +19,10 @@
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ПродажиОбороты.ВидУпражнения,
-	ПродажиОбороты.СуммаОборот
+	ДоходыТренераОбороты.Упражнение,
+	ДоходыТренераОбороты.СуммаОборот
 ИЗ
-	РегистрНакопления.Продажи.Обороты КАК ПродажиОбороты</query>
+	РегистрНакопления.ДоходыТренера.Обороты КАК ДоходыТренераОбороты</query>
 	</dataSet>
 	<totalField>
 		<dataPath>СуммаОборот</dataPath>
@@ -82,7 +82,7 @@
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>ВидУпражнения</dcsset:field>
+					<dcsset:field>Упражнение</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>СуммаОборот</dcsset:field>
@@ -92,7 +92,7 @@
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Период</dcscor:parameter>
 					<dcscor:value xsi:nil="true"/>
-					<dcsset:userSettingID>0d10e5aa-6a9b-4a5c-ad16-e42ef4ee2152</dcsset:userSettingID>
+					<dcsset:userSettingID>1b03c65c-05c2-4cc3-987e-71c2681b9bb7</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">

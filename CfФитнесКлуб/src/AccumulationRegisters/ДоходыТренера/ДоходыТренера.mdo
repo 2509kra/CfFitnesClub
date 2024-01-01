@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f586e5e-9395-46ec-baee-00d36a13b3e4">
+  <producedTypes>
+    <selectionType typeId="5e5192c7-cb16-4c6e-ba71-5011c0bb9968" valueTypeId="b22c875b-91aa-4e63-a172-3c7bb8e47f5a"/>
+    <listType typeId="eb92ea05-6554-4ff9-b323-d566a410d672" valueTypeId="da52126e-59ae-4499-b5af-ace493680638"/>
+    <managerType typeId="d73cd358-6093-4118-b6a9-f1115eb87604" valueTypeId="50e30a60-e0bb-457a-9a4f-f5e7d3956632"/>
+    <recordSetType typeId="5ebf5fd2-cdae-43d3-90c5-3b1fb0c20f3f" valueTypeId="8f96aa04-e4ba-4844-9250-a5a50c806446"/>
+    <recordKeyType typeId="500c0e83-58ef-423e-b8bd-8690ca554f76" valueTypeId="f1898ee9-e284-45e5-88a0-c4f3f5f8d230"/>
+    <recordType typeId="611f2a4b-5e54-49fb-b3fa-ee31a2068a91" valueTypeId="1a411396-f11a-4ff0-8e24-a95d191c4bce"/>
+  </producedTypes>
+  <name>ДоходыТренера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доходы тренера</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="2d40d200-e432-401d-81a8-9212237c6c9c">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="cf434ccb-f5f1-40a9-ab1e-36f608b007ac">
+    <name>Упражнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упражнение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Упражнения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

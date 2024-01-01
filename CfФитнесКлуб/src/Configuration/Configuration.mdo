@@ -47,11 +47,20 @@
   <roles>Role.Кассир</roles>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.Тренер</roles>
+  <catalogs>Catalog.ВидыУпражнений</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Упражнения</catalogs>
   <documents>Document.ПосещениеУпражнения</documents>
   <documents>Document.ПродажаБилета</documents>
+  <documents>Document.УстановкаПроцентовТренеруПоУпражнению</documents>
+  <documents>Document.УстановкаЦенНоменклатуры</documents>
+  <enums>Enum.ВидНоменклатуры</enums>
+  <reports>Report.ДоходТренеров</reports>
   <reports>Report.ПродажиПоУпражнениям</reports>
   <reports>Report.СтатистикаПосещений</reports>
+  <informationRegisters>InformationRegister.ПроцентТренеруПоУпражнению</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.АктивныеПосещения</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДоходыТренера</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>

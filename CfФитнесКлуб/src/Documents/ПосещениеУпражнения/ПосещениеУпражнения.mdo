@@ -32,24 +32,9 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <registerRecords>AccumulationRegister.АктивныеПосещения</registerRecords>
+  <registerRecords>AccumulationRegister.ДоходыТренера</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="3e41227a-2643-4e52-8377-24eac187cc5a">
-    <name>Упражнение</name>
-    <synonym>
-      <key>ru</key>
-      <value>Упражнение</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Упражнения</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="b0d65980-dc10-4dc7-aca0-685fe2363b26">
     <name>Билет</name>
     <synonym>
@@ -62,6 +47,21 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="73d5b8eb-0a12-4ffb-95f1-7dead4924de2">
+    <name>Упражнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упражнение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Упражнения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="619fc8eb-1181-4a21-95a5-7e68a3f1cc3d">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="619fc8eb-1181-4a21-95a5-7e68a3f1cc3d">
   <producedTypes>
     <objectType typeId="25167bb2-740f-4b54-a0d9-2265d7515705" valueTypeId="2f1de13e-3402-4483-9a6c-74b564fb7b8c"/>
     <refType typeId="2fd19120-5b17-4644-b00e-5aaf18eeecf1" valueTypeId="2c2aa41c-0146-4c19-b269-7942166cbc87"/>
@@ -35,4 +35,19 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="799ebe10-8b78-4244-a17d-784931351480">
+    <name>ВидУпражнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид упражнения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыУпражнений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

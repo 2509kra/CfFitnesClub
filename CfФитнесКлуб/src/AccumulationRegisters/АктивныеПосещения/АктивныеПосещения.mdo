@@ -47,13 +47,13 @@
     <useInTotals>true</useInTotals>
   </dimensions>
   <dimensions uuid="76b44f6d-3c4c-4cbf-b833-7a64a8eb53eb">
-    <name>Упражнение</name>
+    <name>ВидУпражнения</name>
     <synonym>
       <key>ru</key>
-      <value>Упражнение</value>
+      <value>Вид упражнения</value>
     </synonym>
     <type>
-      <types>CatalogRef.Упражнения</types>
+      <types>CatalogRef.ВидыУпражнений</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

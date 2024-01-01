@@ -36,13 +36,13 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <dimensions uuid="2ad7ae19-c172-4e7d-bab8-722e931bc77e">
-    <name>Упражнение</name>
+    <name>ВидУпражнения</name>
     <synonym>
       <key>ru</key>
-      <value>Упражнение</value>
+      <value>Вид упражнения</value>
     </synonym>
     <type>
-      <types>CatalogRef.Упражнения</types>
+      <types>CatalogRef.ВидыУпражнений</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

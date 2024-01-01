@@ -7,7 +7,7 @@
   <name>ПродажиПоУпражнениям</name>
   <synonym>
     <key>ru</key>
-    <value>Продажи по упражнениям</value>
+    <value>Продажи билетов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.ПродажиПоУпражнениям.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
