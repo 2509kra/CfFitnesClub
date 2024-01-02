@@ -49,4 +49,19 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
+  <dimensions uuid="187cc912-f8ad-4b35-8155-66fe9a016ead">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
 </mdclass:AccumulationRegister>

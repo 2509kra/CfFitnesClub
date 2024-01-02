@@ -34,6 +34,7 @@
   <defaultObjectForm>Document.ПродажаБилета.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.АктивныеПосещения</registerRecords>
   <registerRecords>AccumulationRegister.Продажи</registerRecords>
+  <registerRecords>AccumulationRegister.БонусныеБаллыКлиента</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="c8f6b4d4-f78e-4e88-94a1-e03acc69d003">
@@ -63,6 +64,62 @@
     <synonym>
       <key>ru</key>
       <value>Сумма документа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1b87f381-5320-451c-aa99-9e537b6284fa">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b5cccc09-39c6-4edb-9d4f-f0548cf85970">
+    <name>БаллыКСписанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Баллы к списанию</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9faacf85-76f9-4f6c-9c84-599760b27090">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
     </synonym>
     <type>
       <types>Number</types>

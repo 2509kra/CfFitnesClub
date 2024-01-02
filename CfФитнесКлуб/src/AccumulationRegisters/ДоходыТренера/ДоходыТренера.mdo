@@ -49,4 +49,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
+  <dimensions uuid="05a83ceb-84e0-4393-bcb8-38996f6122ad">
+    <name>Тренер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тренер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Тренер</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
 </mdclass:AccumulationRegister>

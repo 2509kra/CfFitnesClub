@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e341b53-e662-499b-84ba-b52c8419bf4e">
+  <producedTypes>
+    <objectType typeId="02a504c3-c0d5-40b9-81d2-786a75e37bd3" valueTypeId="a366e397-fec3-4fb8-ae56-b0c87c97409c"/>
+    <refType typeId="8081e8ba-2736-46fa-9ce4-296d169b10e7" valueTypeId="669d984a-520b-4c5f-ae0a-da9f20333740"/>
+    <selectionType typeId="a53fa211-6a67-41cf-8bef-44e020f24dfb" valueTypeId="4e4edbfb-6da2-490e-9fc6-1417242b0782"/>
+    <listType typeId="d09a1c78-6b16-4363-a93f-9f7b2c4a679c" valueTypeId="5d5c6a25-21fe-493e-944c-48d9df289773"/>
+    <managerType typeId="514f1c03-6be2-48d3-8aab-4a64f75076e2" valueTypeId="6cdcf99e-725d-4a7c-9684-30db99ca3651"/>
+  </producedTypes>
+  <name>ФизическоеЛицо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Физическое лицо</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ФизическоеЛицо.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ФизическоеЛицо.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="4a65217b-25fb-4aaf-9e91-85e9f56c25a5">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7f64533c-c608-4627-a738-fab5a67d6f9b">
+    <name>Тренер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тренер</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

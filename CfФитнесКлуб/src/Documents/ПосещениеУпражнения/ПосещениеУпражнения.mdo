@@ -66,4 +66,20 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="998aa0eb-3411-4514-9f2b-5a15eef5ad50">
+    <name>Тренер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тренер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Тренер</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Document>

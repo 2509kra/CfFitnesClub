@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f2327f1-468c-4f2d-a239-b9f39ecc17b2">
+  <producedTypes>
+    <objectType typeId="1fe27735-51f7-4108-be88-11baafc8096a" valueTypeId="47b97c68-8deb-40fa-895a-634fb9e7079e"/>
+    <refType typeId="0b4a68a3-f442-4900-ab23-b34ac29b3a64" valueTypeId="a28a93fe-af22-450d-8c6b-5998d59b9461"/>
+    <selectionType typeId="ba8c0237-7bb5-4c8b-8085-a33165b4576e" valueTypeId="b4087710-1821-4912-9c8a-7cd4fa4112a4"/>
+    <listType typeId="344fc8e9-799b-43d7-9306-ce72d7b3bc0e" valueTypeId="7be80002-7d87-43b8-a4d0-6b9594621e2b"/>
+    <managerType typeId="217990fd-c17c-4d17-98ec-83699378ef7f" valueTypeId="de8fcec7-f0fd-4da2-a43c-9e622260b0ce"/>
+  </producedTypes>
+  <name>Тренер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тренер</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Тренер.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Тренер.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Тренер.Attribute.Телефон</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Тренер</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="27170438-4f52-4699-9394-62d6ec213ee5">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="df046384-f2ea-44e6-a858-21fb4a43a9a7">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическоеЛицо</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.Тренер</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
