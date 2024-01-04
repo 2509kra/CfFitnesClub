@@ -61,6 +61,7 @@
   <documents>Document.УстановкаЦенНоменклатуры</documents>
   <documents>Document.ШкалаБонусонойПрограммы</documents>
   <enums>Enum.ВидНоменклатуры</enums>
+  <reports>Report.ДетализацияПосещений</reports>
   <reports>Report.ДоходТренеров</reports>
   <reports>Report.ПродажиПоУпражнениям</reports>
   <reports>Report.СтатистикаПосещений</reports>
@@ -72,5 +73,6 @@
   <accumulationRegisters>AccumulationRegister.АктивныеПосещения</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.БонусныеБаллыКлиента</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДоходыТренера</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ПосещениеУпражнений</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>

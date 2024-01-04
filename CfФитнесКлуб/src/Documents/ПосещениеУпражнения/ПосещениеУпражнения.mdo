@@ -33,6 +33,7 @@
   <autonumbering>true</autonumbering>
   <registerRecords>AccumulationRegister.АктивныеПосещения</registerRecords>
   <registerRecords>AccumulationRegister.ДоходыТренера</registerRecords>
+  <registerRecords>AccumulationRegister.ПосещениеУпражнений</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="b0d65980-dc10-4dc7-aca0-685fe2363b26">
